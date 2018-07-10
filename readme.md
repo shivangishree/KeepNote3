@@ -38,13 +38,13 @@ In this case study, we will develop a RESTful application with which we will reg
     Step 3: Implement ApplicationContextConfig.java 
     Step 4: Specify Root config class in WebApplicationInitializer.java file.
     Step 5: Define the data model classes (User, Reminder, Note, Category)
-    Step 6: Test each and every controller with appropriate test cases.
+    Step 6: Test each and every model with appropriate test cases.
     Step 7: See the methods mentioned in the DAO interface.
     Step 8: Implement all the methods of DAO interface in DaoImpl.
-    Step 9: Test each and every controller with appropriate test cases.
+    Step 9: Test each and every dao with appropriate test cases.
     Step 10: See the methods mentioned in the service interface.
     Step 11: Implement all the methods of service interface in ServiceImpl.
-    Step 12: Test each and every controller with appropriate test cases.
+    Step 12: Test each and every service with appropriate test cases.
     Step 13: Write controllers to work with RESTful web services. 
     Step 14: Test each and every controller with appropriate test cases.
     Step 15: Check all the functionalities using URI's mentioned in the controllers with the help of Postman for final output.
@@ -129,7 +129,7 @@ The folders and files you see in this repositories is how it is expected to be i
 
 1. Clone the base boilerplate in the folder **assignment-solution-step3** of your local machine
      
-    `git clone https://gitlab-cts.stackroute.in/KeepNote-Boilerplates/KeepNote-Step3-Boilerplate.git assignment-solution-step3`
+    `git clone https://gitlab.stackroute.in/KeepNote-Boilerplates/KeepNote-Step3-Boilerplate.git assignment-solution-step3`
 
 2. Navigate to assignment-solution-step3 folder
 
@@ -143,7 +143,7 @@ The folders and files you see in this repositories is how it is expected to be i
 
 5. Add your new repository reference as remote
 
-     `git remote add origin https://gitlab-cts.stackroute.in/{{yourUserName}}/assignment-solution-step3.git`
+     `git remote add origin https://gitlab.stackroute.in/{{yourUserName}}/assignment-solution-step3.git`
 
      **Note: {{yourUserName}} should be replaced by your userName from gitlab**
 
